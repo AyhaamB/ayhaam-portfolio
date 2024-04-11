@@ -135,7 +135,7 @@ const Projects = () => {
               </div>
             </div>
           </a>
-          <a
+          {/* <a
             className="project"
             href="https://quachies.github.io/My-weather-dashboard/"
             target="_blank"
@@ -159,7 +159,7 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </>
