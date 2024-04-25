@@ -10,7 +10,7 @@ export default function BasicForm() {
     e.preventDefault();
     e.stopPropagation();
 
-    fetch("https://formcarry.com/s/4cI93bSJrlV", {
+    fetch("https://formcarry.com/s/5D0U6zsR3y8", {
       method: "POST",
       headers: {
         Accept: "application/json",
