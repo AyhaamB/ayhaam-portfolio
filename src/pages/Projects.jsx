@@ -12,13 +12,7 @@ const Projects = () => {
               <div className="icon-container">
                 <p className="project-title">StoneLinx</p>
                 <img className="project-icon" src="/white-mountain.png"></img>
-                <a
-                  className="github-link"
-                  href="https://github.com/quachies/RendezView"
-                  target="_blank"
-                >
-                  GitHub Repository Link
-                </a>
+                <div className="github-link">Repository Is Private</div>
               </div>
               <div className="desc-container">
                 <p className="project-desc">
@@ -86,16 +80,16 @@ const Projects = () => {
           </a>
           <a
             className="project"
-            href="https://techhub-2e27fc23eded.herokuapp.com/"
+            href="https://tech-blog-ayhaam-0c89b67fd39c.herokuapp.com/"
             target="_blank"
           >
             <div className="project-info-container">
               <div className="icon-container">
-                <p className="project-title">TechHub</p>
+                <p className="project-title">Tech Blog</p>
                 <img className="project-icon" src="/tech.png"></img>
                 <a
                   className="github-link"
-                  href="https://github.com/quachies/tech-blog"
+                  href="https://github.com/AyhaamB/tech-blog"
                   target="_blank"
                 >
                   GitHub Repository Link
@@ -103,8 +97,7 @@ const Projects = () => {
               </div>
               <div className="desc-container">
                 <p className="project-desc">
-                  Example text. Example text. Example text. Example text.
-                  Example text. Example text. Example text. Example text.
+                This website allows users to create and account, view and share blog posts, as well as create comments and update/delete posts if they are logged in.
                 </p>
               </div>
             </div>
@@ -131,6 +124,78 @@ const Projects = () => {
                   This application allows users to search for a city of their
                   choice and see up to date weather information as well as an
                   extended forecast.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            className="project"
+            href="https://ayhaamb.github.io/schedule-builder/"
+            target="_blank"
+          >
+            <div className="project-info-container">
+              <div className="icon-container">
+                <p className="project-title">Schedule Builder</p>
+                <img className="project-icon" src="/schedule.png"></img>
+                <a
+                  className="github-link"
+                  href="https://github.com/AyhaamB/schedule-builder"
+                  target="_blank"
+                >
+                  GitHub Repository Link
+                </a>
+              </div>
+              <div className="desc-container">
+                <p className="project-desc">
+                View the current time and see which time blocks are in the past, present and future. Input a memo/reminder into each time block and hit save to keep that information stored there.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            className="project"
+            href="https://drive.google.com/file/d/1qu_MQ6EVr01cA_D814r-xgbP5Rc4Mdsq/view"
+            target="_blank"
+          >
+            <div className="project-info-container">
+              <div className="icon-container">
+                <p className="project-title">Social Network API</p>
+                <img className="project-icon" src="/database.png"></img>
+                <a
+                  className="github-link"
+                  href="https://github.com/AyhaamB/social-network-api"
+                  target="_blank"
+                >
+                  GitHub Repository Link
+                </a>
+              </div>
+              <div className="desc-container">
+                <p className="project-desc">
+                See a collection of users with their associated thoughts, reactions and friends that can be updated, deleted, created and viewed! Built using MongoDB.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            className="project"
+            href="https://drive.google.com/file/d/1f7WSS9yIRnZpsNIjiHy50BB4XNJFJvDu/view"
+            target="_blank"
+          >
+            <div className="project-info-container">
+              <div className="icon-container">
+                <p className="project-title">Employee Data API</p>
+                <img className="project-icon" src="/database.png"></img>
+                <a
+                  className="github-link"
+                  href="https://github.com/AyhaamB/employee-tracker"
+                  target="_blank"
+                >
+                  GitHub Repository Link
+                </a>
+              </div>
+              <div className="desc-container">
+                <p className="project-desc">
+                This employee tracker is dynamic and will take user input to update the roles, departments and employees in a given company. Built using MySQL.
                 </p>
               </div>
             </div>

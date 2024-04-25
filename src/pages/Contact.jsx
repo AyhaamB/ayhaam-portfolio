@@ -63,7 +63,7 @@ export default function BasicForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               id="email"
-              placeholder="john@doe.com"
+              placeholder="Your email"
             />
           </div>
 
