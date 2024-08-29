@@ -25,7 +25,7 @@ const Header = () => {
         >
           <div className="resume-link">
             <p className="resume-download">Download Resume</p>
-            <img className="resume-icon" src="/resume.png"></img>
+            <img className="resume-icon"></img>
           </div>
         </a>
       </div>
