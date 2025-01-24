@@ -5,7 +5,7 @@ const Projects = () => {
         <div className="project-container">
           <a
             className="project"
-            href="http://www.stonelinxlogistics.com/"
+            href="https://stone-linx-7ae8cc75c9ff.herokuapp.com/"
             target="_blank"
           >
             <div className="project-info-container">
